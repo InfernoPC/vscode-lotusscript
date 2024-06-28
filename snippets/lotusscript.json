@@ -1,0 +1,83 @@
+{
+    "Function Template": {
+        "prefix": "Function",
+        "body": [
+            "Function ${1:functionName}(${2:arguments}) As ${3:returnType}",
+            "   $0",
+            "End Function"
+        ],
+        "description": "Template for a LotusScript function that takes a string parameter and returns a string."
+    },
+    "Subroutine Template": {
+        "prefix": "Sub",
+        "body": [
+            "Sub ${1:subName}${2:(${3:arguments})}",
+            "   $0",
+            "End Sub"
+        ],
+        "description": "Template for a simple LotusScript subroutine."
+    },
+    "Variable Declaration": {
+        "prefix": "Dim",
+        "body": [
+            "Dim ${1:variableName} As ${2:DataType}"
+        ],
+        "description": "One-line snippet for declaring a variable in LotusScript."
+    },
+    "Dim NotesUIWorkspace": {
+        "prefix": "Dim Worksapce",
+        "body": [
+            "Dim ${1:ws} As New NotesUIWorkspace",
+            "$0"
+        ],
+        "description": "Declares a new NotesUIWorkspace object."
+    },
+    "Dim NotesSession": {
+        "prefix": "Dim Session",
+        "body": [
+            "Dim ${1:s} As New NotesSession",
+            "$0"
+        ],
+        "description": "Declares a new NotesSession object."
+    },
+    "Database Instantiation": {
+        "prefix": "Dim New Database",
+        "body": [
+            "Dim ${1:db} As New NotesDatabase(${2:serverName}, ${3:filePath})",
+            "$0"
+        ],
+        "description": "Declares and instantiates a new Database object."
+    },
+    "Database Declaration": {
+        "prefix": "Dim Database",
+        "body": [
+            "Dim ${1:db} As NotesDatabase",
+            "$0"
+        ],
+        "description": "Declares a new Database object."
+    },
+    "View Declaration": {
+        "prefix": "Dim View",
+        "body": [
+            "Dim ${1:view} As NotesView",
+            "$0"
+        ],
+        "description": "Declares a new View object."
+    },
+    "Document Instantiation": {
+        "prefix": "Dim New Document",
+        "body": [
+            "Dim ${1:doc} As New NotesDocument(${2:db})",
+            "$0"
+        ],
+        "description": "Declares and instantiates a new Document object."
+    },
+    "Document Declaration": {
+        "prefix": "Dim Document",
+        "body": [
+            "Dim ${1:doc} As NotesDocument",
+            "$0"
+        ],
+        "description": "Declares a new Document object."
+    }
+}

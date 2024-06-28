@@ -1,0 +1,31 @@
+{
+  "name": "lotusscript",
+  "displayName": "Lotus Script",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "lotusscript",
+      "aliases": ["LotusScript", "lotusscript"],
+      "extensions": [".lss"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "lotusscript",
+      "scopeName": "source.lss",
+      "path": "./syntaxes/lotusscript.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "lotusscript",
+        "path": "./snippets/lotusscript.json"
+      }
+    ]
+  }
+}
