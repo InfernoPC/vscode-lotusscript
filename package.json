@@ -1,11 +1,12 @@
 {
   "name": "lotusscript",
   "displayName": "Lotus Script",
-  "description": "",
-  "version": "0.0.1",
+  "description": "LotusScript highlighting support for vscode",
+  "version": "0.1.1",
   "engines": {
-    "vscode": "^1.90.0"
+    "vscode": "^1.x.0"
   },
+  "publisher": "timchen-ixq",
   "categories": [
     "Programming Languages"
   ],
@@ -27,5 +28,9 @@
         "path": "./snippets/lotusscript.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InfernoPC/vscode-lotusscript"
   }
 }
